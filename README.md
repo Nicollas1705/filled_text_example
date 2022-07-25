@@ -1,16 +1,15 @@
 # filled_text_example
 
-A new Flutter project.
+An example using the [filled_text] plugin. 
 
-## Getting Started
+<br>
+<img WIDTH="60%" src="https://user-images.githubusercontent.com/84534787/120998591-a95c6980-c7a1-11eb-9435-7d7587f0b32b.png">
+<br>
+<br>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Example
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![Filled text example](https://user-images.githubusercontent.com/58062436/180695238-df8037c6-580d-4bf6-8d5e-1100d0aa57ef.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+[Original plugin](https://github.com/Nicollas1705/filled_text)
