@@ -1,4 +1,4 @@
-import 'package:filled_text_example/example.dart';
+import 'package:filled_text_example/pages_example.dart';
 import 'package:filled_text_example/simple_example.dart';
 import 'package:flutter/material.dart';
 import 'package:filled_text/filled_text.dart';
