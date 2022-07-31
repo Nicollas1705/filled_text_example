@@ -1,7 +1,7 @@
 import 'package:filled_text/filled_text.dart';
 import 'package:flutter/material.dart';
 
-// Just to check if will show the next page button (and update) after the build
+// Just to check to show/hide the next page button (and update) after the build
 class Controller extends ChangeNotifier {
   void update() => notifyListeners();
 }
@@ -55,8 +55,8 @@ class FilledTextPagesExample extends StatelessWidget {
               Expanded(
                 child: FilledTextWidget(
                   filledText: filledText,
-                  // Setted due to be the second [FilledTextWidget] in the page
-                  isTheFirstOfTheBuilder: false,
+                  // Setted due to be the 2nd [FilledTextWidget] in the page
+                  builderPosition: 2,
                 ),
               ),
             ],
@@ -66,7 +66,7 @@ class FilledTextPagesExample extends StatelessWidget {
     );
   }
 
-  // Used to check if the text finished and build (if true) the next page button
+  // Used to check if the text finished and show (if true) or hide (if false) the next page button
   void updateControllerAfterBuild(Controller controller) {
     WidgetsBinding.instance?.addPostFrameCallback((_) {
       controller.update();
